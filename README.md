@@ -17,8 +17,8 @@
 
 ## 🛠 **Skills & Expertise**  
 - **Programming Languages**: Python  
-- **Libraries & Frameworks**: OpenCV, TensorFlow, PyTorch, MediaPipe  
-- **Technologies**: Docker, Git  
+- **Libraries & Frameworks**: OpenCV, TensorFlow, PyTorch, MediaPipe, Flask, Angular, Tkinter  
+- **Technologies**: Docker, Git
 - **Machine Learning Techniques**: Supervised & Unsupervised Learning, Deep Learning, Recurrent Neural Networks  
 - **Areas of Expertise**: Computer Vision, Image Processing, Machine Learning, Deep Learning  
 
