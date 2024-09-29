@@ -34,7 +34,7 @@
 ## 🌐 **Connect with Me**  
 - **LinkedIn**: [adnane-touzouz](https://www.linkedin.com/in/adnane-touzouz/)  
 - **Email**: [adnane.touzouz.ta@gmail.com](mailto:adnane.touzouz.ta@gmail.com)
-- **Portfolio**: [TOUZOUZ Adnane](https://touzouz-adnane.github.io/TOUZOUZ-Adnane-Portfolio/) 
+- **Portfolio**: [TOUZOUZ Adnane](https://touzouz-adnane.github.io/TOUZOUZ-Adnane/) 
 
 Feel free to reach out or connect with me to discuss exciting opportunities, collaborations, or just to chat about computer vision and AI!
 
