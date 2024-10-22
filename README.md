@@ -29,6 +29,10 @@
 *July 2023 - September 2023*  
 - Spearheaded the development and deployment of a teeth segmentation model, enhancing diagnostic accuracy.
 
+**Intern | Moulay Ismail University**  
+*March 2024 - September 2024*  
+- Developed an innovative solution for translating Moroccan sign language using computer vision techniques, contributing to accessibility efforts for the hearing-impaired community.
+
 ---
 
 ## 🌐 **Connect with Me**  
