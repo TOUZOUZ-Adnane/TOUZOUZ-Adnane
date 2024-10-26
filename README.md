@@ -25,13 +25,18 @@
 ---
 
 ## 💼 **Professional Experience**  
-**Intern | 3D SMART FACTORY**  
-*July 2023 - September 2023*  
-- Spearheaded the development and deployment of a teeth segmentation model, enhancing diagnostic accuracy.
+
+**Computer Vision Intern | Artéka**  
+*October 2024 - Present*  
+- Engaged in a project focused on integrating computer vision into sports, specifically in futsal, to enhance analysis and insights.
 
 **Intern | Moulay Ismail University**  
 *March 2024 - September 2024*  
 - Developed an innovative solution for translating Moroccan sign language using computer vision techniques, contributing to accessibility efforts for the hearing-impaired community.
+
+**Intern | 3D SMART FACTORY**  
+*July 2023 - September 2023*  
+- Spearheaded the development and deployment of a teeth segmentation model, enhancing diagnostic accuracy.
 
 ---
 
