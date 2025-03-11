@@ -3,12 +3,12 @@
 </p>
 
 # 👋 **Hi there, I'm TOUZOUZ Adnane!**  
-**Computer Vision Engineer | AI and Data Analysis Specialist**
+**Computer Vision Engineer**
 
 ---
 
 ## 🎓 **Education**  
-- **Master's in Artificial Intelligence and Data Analysis**  
+- **Master's in Artificial Intelligence and Data Analytics**  
   *Moulay Ismail University of Meknes* (2022 - 2024)  
 - **Bachelor's Degree in Computer Science**  
   *Moulay Ismail University of Meknes* (2019 - 2022)
@@ -16,34 +16,66 @@
 ---
 
 ## 🛠 **Skills & Expertise**  
-- **Programming Languages**: Python  
-- **Libraries & Frameworks**: OpenCV, TensorFlow, PyTorch, MediaPipe, Flask, Angular, Tkinter  
-- **Technologies**: Docker, Git
-- **Machine Learning Techniques**: Supervised & Unsupervised Learning, Deep Learning, Recurrent Neural Networks  
-- **Areas of Expertise**: Computer Vision, Image Processing, Machine Learning, Deep Learning  
+- **Programming Languages**: Python, C++  
+- **Deep Learning**: TensorFlow, PyTorch, CNNs, RNNs  
+- **Computer Vision**: OpenCV, YOLO, ViT, MViT  
+- **Image Processing**: Image Segmentation, Object Detection, Feature Extraction  
+- **Optimization & Deployment**: Model Compression, TensorRT, ONNX  
+- **Tools & Frameworks**: Docker, Flask, OpenGL  
 
 ---
 
 ## 💼 **Professional Experience**  
 
+**Computer Vision Engineer | SPORTSCORE**  
+*January 2025 - Present*  
+- Developed AI-driven models for sports analytics, using deep learning (ViT, MViT) and RNNs for real-time action detection in futsal.
+- Implemented object tracking and event detection in high-speed video sequences.
+- Optimized deep learning models for real-time inference on edge devices.
+
 **Computer Vision Intern | Artéka**  
-*October 2024 - Present*  
-- Engaged in a project focused on integrating computer vision into sports, specifically in futsal, to enhance analysis and insights.
+*October 2024 - December 2024*  
+- Built AI models for player tracking and event recognition in sports analytics.
+- Enhanced object detection pipelines for improved accuracy in real-time applications.
+- Worked on integrating deep learning models with cloud-based processing.
 
-**Intern | Moulay Ismail University**  
+**Computer Vision Intern | Moulay Ismail University**  
 *March 2024 - September 2024*  
-- Developed an innovative solution for translating Moroccan sign language using computer vision techniques, contributing to accessibility efforts for the hearing-impaired community.
+- Designed and trained deep learning models for Moroccan Sign Language recognition.
+- Developed a real-time system for hand gesture classification.
+- Conducted extensive image preprocessing to improve model robustness.
 
-**Intern | 3D SMART FACTORY**  
+**Computer Vision Intern | 3D SMART FACTORY**  
 *July 2023 - September 2023*  
-- Spearheaded the development and deployment of a teeth segmentation model, enhancing diagnostic accuracy.
+- Developed a deep learning model for teeth segmentation in medical imaging.
+- Improved segmentation accuracy using advanced augmentation techniques.
+- Deployed the model for real-world dental diagnostics applications.
+
+---
+
+## 🌟 **Notable Projects**  
+
+### **Sports Action Recognition using Deep Learning**  
+- Developed a computer vision model to detect and classify player actions in futsal games.
+- Used Transformer-based architectures (ViT, MViT) for feature extraction.
+- Optimized inference speed using TensorRT and model quantization.
+
+### **Sign Language Recognition System**  
+- Built a neural network for real-time sign language translation.
+- Implemented a dataset pipeline for preprocessing video sequences.
+- Used CNN-RNN models to improve gesture classification accuracy.
+
+### **Medical Image Segmentation for Dental Applications**  
+- Developed a deep learning-based segmentation model for medical imaging.
+- Applied U-Net and ResNet architectures to improve precision.
+- Deployed the model using Flask for an interactive user interface.
 
 ---
 
 ## 🌐 **Connect with Me**  
 - **LinkedIn**: [adnane-touzouz](https://www.linkedin.com/in/adnane-touzouz/)  
-- **Email**: [adnane.touzouz.ta@gmail.com](mailto:adnane.touzouz.ta@gmail.com)
-- **Portfolio**: [TOUZOUZ Adnane](https://touzouz-adnane.github.io/TOUZOUZ-Adnane/) 
+- **Email**: [adnane.touzouz.ta@gmail.com](mailto:adnane.touzouz.ta@gmail.com)  
+- **Portfolio**: [TOUZOUZ Adnane](https://touzouz-adnane.github.io/TOUZOUZ-Adnane/)  
 
 Feel free to reach out or connect with me to discuss exciting opportunities, collaborations, or just to chat about computer vision and AI!
 
