@@ -27,17 +27,6 @@
 
 ## 💼 **Professional Experience**  
 
-**Computer Vision Engineer | SPORTSCORE**  
-*January 2025 - Present*  
-- Developed AI-driven models for sports analytics, using deep learning (ViT, MViT) and RNNs for real-time action detection in futsal.
-- Implemented object tracking and event detection in high-speed video sequences.
-- Optimized deep learning models for real-time inference on edge devices.
-
-**Computer Vision Intern | Artéka**  
-*October 2024 - December 2024*  
-- Built AI models for player tracking and event recognition in sports analytics.
-- Enhanced object detection pipelines for improved accuracy in real-time applications.
-- Worked on integrating deep learning models with cloud-based processing.
 
 **Computer Vision Intern | Moulay Ismail University**  
 *March 2024 - September 2024*  
