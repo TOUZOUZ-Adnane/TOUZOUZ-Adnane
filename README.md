@@ -44,10 +44,6 @@
 
 ## 🌟 **Notable Projects**  
 
-### **Sports Action Recognition using Deep Learning**  
-- Developed a computer vision model to detect and classify player actions in futsal games.
-- Used Transformer-based architectures (ViT, MViT) for feature extraction.
-- Optimized inference speed using TensorRT and model quantization.
 
 ### **Sign Language Recognition System**  
 - Built a neural network for real-time sign language translation.
