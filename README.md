@@ -2,8 +2,8 @@
   <img src="https://github.com/user-attachments/assets/f387243e-b59a-49a0-87b3-0bfa27eda6b9" alt="banner" width="1000px" style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);" />
 </p>
 
-# 👋 **Hi there, I'm TOUZOUZ Adnane!**  
-**Computer Vision Engineer**
+# 👋 **Hi there, I'm TOUZOUZ Adnane (**Computer Vision Engineer**)!**  
+
 
 
 ---
