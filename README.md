@@ -5,55 +5,6 @@
 # 👋 **Hi there, I'm TOUZOUZ Adnane!**  
 **Computer Vision Engineer**
 
----
-
-## 🎓 **Education**  
-- **Master's in Artificial Intelligence and Data Analytics**  
-  *Moulay Ismail University of Meknes* (2022 - 2024)  
-- **Bachelor's Degree in Computer Science**  
-  *Moulay Ismail University of Meknes* (2019 - 2022)
-
----
-
-## 🛠 **Skills & Expertise**  
-- **Programming Languages**: Python, C++  
-- **Deep Learning**: TensorFlow, PyTorch, CNNs, RNNs  
-- **Computer Vision**: OpenCV, YOLO, ViT, MViT  
-- **Image Processing**: Image Segmentation, Object Detection, Feature Extraction  
-- **Optimization & Deployment**: Model Compression, TensorRT, ONNX  
-- **Tools & Frameworks**: Docker, Flask, OpenGL  
-
----
-
-## 💼 **Professional Experience**  
-
-
-**Computer Vision Intern | Moulay Ismail University**  
-*March 2024 - September 2024*  
-- Designed and trained deep learning models for Moroccan Sign Language recognition.
-- Developed a real-time system for hand gesture classification.
-- Conducted extensive image preprocessing to improve model robustness.
-
-**Computer Vision Intern | 3D SMART FACTORY**  
-*July 2023 - September 2023*  
-- Developed a deep learning model for teeth segmentation in medical imaging.
-- Improved segmentation accuracy using advanced augmentation techniques.
-- Deployed the model for real-world dental diagnostics applications.
-
----
-
-## 🌟 **Notable Projects**  
-
-
-### **Sign Language Recognition System**  
-- Built a neural network for real-time sign language translation.
-- Implemented a dataset pipeline for preprocessing video sequences.
-- Used CNN-RNN models to improve gesture classification accuracy.
-
-### **Medical Image Segmentation for Dental Applications**  
-- Developed a deep learning-based segmentation model for medical imaging.
-- Applied U-Net and ResNet architectures to improve precision.
-- Deployed the model using Flask for an interactive user interface.
 
 ---
 
