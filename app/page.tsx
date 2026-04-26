@@ -92,7 +92,7 @@ export default function Home() {
                 title: 'Sports Analytics - Real-Time Action Detection',
                 description: 'AI-driven sports analytics using ViT and MViT for real-time action detection in futsal with predictive player performance models.',
                 tags: ['ViT', 'MViT', 'RNN', 'Sports Analytics', 'PyTorch'],
-                image: '/futsal_tmpl.png',
+                image: 'out/futsal_tmpl.png',
               },
               {
                 title: 'UAV Image Processing Pipeline',
