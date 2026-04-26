@@ -241,7 +241,15 @@ export default function Home() {
               Interested in collaborating or discussing computer vision projects?
             </p>
           </div>
-          <div className="flex gap-6 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://github.com/adnane-touzouz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3 bg-white/10 border border-white/10 text-white hover:bg-white/20 rounded-lg font-semibold transition-colors"
+            >
+              GitHub
+            </a>
             <a
               href="https://www.linkedin.com/in/adnane-touzouz/"
               target="_blank"
