@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
 import { useState } from 'react';
 
 export default function Home() {
@@ -65,14 +64,10 @@ export default function Home() {
             <div className="flex-1">
               <div className="relative w-full max-w-sm mx-auto">
                 <div className="relative bg-transparent rounded-2xl p-1 overflow-visible flex items-center justify-center">
-                  <Image
+                  <img
                     src="/profile.png"
                     alt="Adnane Touzouz - Computer Vision Engineer"
-                    width={400}
-                    height={400}
                     className="w-auto h-auto rounded-2xl"
-                    priority
-                    unoptimized
                   />
                 </div>
               </div>
@@ -92,7 +87,7 @@ export default function Home() {
                 title: 'Sports Analytics - Real-Time Action Detection',
                 description: 'AI-driven sports analytics using ViT and MViT for real-time action detection in futsal with predictive player performance models.',
                 tags: ['ViT', 'MViT', 'RNN', 'Sports Analytics', 'PyTorch'],
-                image: 'out/futsal_tmpl.png',
+                image: '/futsal_tmpl.png',
               },
               {
                 title: 'UAV Image Processing Pipeline',
@@ -110,7 +105,7 @@ export default function Home() {
                 title: 'Crowd Behavior Analysis',
                 description: 'Motion pattern analysis, density estimation, and abnormal behavior detection in video sequences using deep learning.',
                 tags: ['Video Analysis', 'Behavior Detection', 'Motion Analysis', 'CNN'],
-                image: '../public/crowd_tmpl.png',
+                image: '/crowd_tmpl.png',
               },
               {
                 title: 'Fire Prevention System',
@@ -122,7 +117,7 @@ export default function Home() {
                 title: 'Livestock Weight Estimation',
                 description: 'Visual data processing combining object detection and regression-based approaches for automated livestock analysis.',
                 tags: ['Object Detection', 'Regression', 'Agriculture AI', 'PyTorch'],
-                image: 'public/catle_weight_tmpl.jpg',
+                image: '/catle_weight_tmpl.jpg',
               },
             ].map((project, idx) => (
               <div
@@ -130,13 +125,11 @@ export default function Home() {
                 className="bg-white/5 border border-white/10 rounded-lg overflow-hidden hover:bg-white/10 transition-all hover:border-cyan-500/50"
               >
                 <div className="relative w-full h-48 overflow-hidden bg-white/5">
-                  <Image
+                  <img
                     src={project.image}
                     alt={project.title}
-                    width={400}
-                    height={300}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                    unoptimized
+                    loading="lazy"
                   />
                 </div>
                 <div className="p-6">
