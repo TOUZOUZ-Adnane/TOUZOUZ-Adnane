@@ -243,14 +243,6 @@ export default function Home() {
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://github.com/adnane-touzouz"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-8 py-3 bg-white/10 border border-white/10 text-white hover:bg-white/20 rounded-lg font-semibold transition-colors"
-            >
-              GitHub
-            </a>
-            <a
               href="https://www.linkedin.com/in/adnane-touzouz/"
               target="_blank"
               rel="noopener noreferrer"
@@ -263,6 +255,14 @@ export default function Home() {
               className="px-8 py-3 border border-cyan-500 text-cyan-400 hover:bg-cyan-500/10 rounded-lg font-semibold transition-colors"
             >
               Email
+            </a>
+            <a
+              href="https://github.com/TOUZOUZ-Adnane"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3 bg-white/10 border border-white/10 text-white hover:bg-white/20 rounded-lg font-semibold transition-colors"
+            >
+              GitHub
             </a>
           </div>
         </div>
