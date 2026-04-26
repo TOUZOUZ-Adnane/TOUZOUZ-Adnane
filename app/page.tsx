@@ -260,7 +260,7 @@ export default function Home() {
               href="https://github.com/TOUZOUZ-Adnane"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-8 py-3 bg-white/10 border border-white/10 text-white hover:bg-white/20 rounded-lg font-semibold transition-colors"
+              className="px-8 py-3 bg-cyan-500 hover:bg-cyan-600 rounded-lg font-semibold transition-color"
             >
               GitHub
             </a>
