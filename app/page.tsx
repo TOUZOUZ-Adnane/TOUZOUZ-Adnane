@@ -122,7 +122,7 @@ export default function Home() {
                 title: 'Livestock Weight Estimation',
                 description: 'Visual data processing combining object detection and regression-based approaches for automated livestock analysis.',
                 tags: ['Object Detection', 'Regression', 'Agriculture AI', 'PyTorch'],
-                image: '/catle_weight_tmpl.jpg',
+                image: 'public/catle_weight_tmpl.jpg',
               },
             ].map((project, idx) => (
               <div
