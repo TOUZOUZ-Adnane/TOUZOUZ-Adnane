@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: "export",
   basePath: "/TOUZOUZ-Adnane",
-  assetPrefix: "/TOUZOUZ-Adnane/out",
+  assetPrefix: "/TOUZOUZ-Adnane/",
   images: {
     unoptimized: true,
   },

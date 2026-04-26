@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Professional portfolio showcasing computer vision projects and expertise in deep learning and AI technologies.",
   keywords: "Computer Vision, Deep Learning, AI, Object Detection, Image Processing",
   icons: {
-    icon: "/favicon.svg",
+    icon: "favicon.svg",
   },
 };
 

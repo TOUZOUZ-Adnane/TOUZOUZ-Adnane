@@ -53,7 +53,7 @@ export default function Home() {
                   View My Work
                 </button>
                 <a
-                  href="/resume.pdf"
+                  href="resume.pdf"
                   download="Adnane_TOUZOUZ_CV.pdf"
                   className="px-8 py-3 border border-cyan-500 text-cyan-400 hover:bg-cyan-500/10 rounded-lg font-semibold transition-colors"
                 >
@@ -65,7 +65,7 @@ export default function Home() {
               <div className="relative w-full max-w-sm mx-auto">
                 <div className="relative bg-transparent rounded-2xl p-1 overflow-visible flex items-center justify-center">
                   <img
-                    src="/profile.png"
+                    src="profile.png"
                     alt="Adnane Touzouz - Computer Vision Engineer"
                     className="w-auto h-auto rounded-2xl"
                   />
@@ -87,37 +87,37 @@ export default function Home() {
                 title: 'Sports Analytics - Real-Time Action Detection',
                 description: 'AI-driven sports analytics using ViT and MViT for real-time action detection in futsal with predictive player performance models.',
                 tags: ['ViT', 'MViT', 'RNN', 'Sports Analytics', 'PyTorch'],
-                image: '/futsal_tmpl.png',
+                image: 'futsal_tmpl.png',
               },
               {
                 title: 'UAV Image Processing Pipeline',
                 description: 'Object detection, classification, and segmentation on high-resolution aerial imagery with optimization for large-scale UAV datasets.',
                 tags: ['Object Detection', 'Segmentation', 'UAV', 'OpenCV', 'Deep Learning'],
-                image: '/uav_tmpl.jpg',
+                image: 'uav_tmpl.jpg',
               },
               {
                 title: 'Temporal Action Segmentation',
                 description: 'Continuous factory activity recognition addressing long-term temporal dependencies in video streams with RNNs and Transformers.',
                 tags: ['LSTM', 'Transformers', 'Video Analysis', 'Action Recognition'],
-                image: '/action_tmpl.png',
+                image: 'action_tmpl.png',
               },
               {
                 title: 'Crowd Behavior Analysis',
                 description: 'Motion pattern analysis, density estimation, and abnormal behavior detection in video sequences using deep learning.',
                 tags: ['Video Analysis', 'Behavior Detection', 'Motion Analysis', 'CNN'],
-                image: '/crowd_tmpl.png',
+                image: 'crowd_tmpl.png',
               },
               {
                 title: 'Fire Prevention System',
                 description: 'Thermal camera-based hotspot detection and analysis with models optimized for varying environmental conditions.',
                 tags: ['Thermal Imaging', 'Detection', 'Computer Vision', 'TensorFlow'],
-                image: '/fire_tmpl.png',
+                image: 'fire_tmpl.png',
               },
               {
                 title: 'Livestock Weight Estimation',
                 description: 'Visual data processing combining object detection and regression-based approaches for automated livestock analysis.',
                 tags: ['Object Detection', 'Regression', 'Agriculture AI', 'PyTorch'],
-                image: '/catle_weight_tmpl.jpg',
+                image: 'catle_weight_tmpl.jpg',
               },
             ].map((project, idx) => (
               <div
