@@ -110,7 +110,7 @@ export default function Home() {
                 title: 'Crowd Behavior Analysis',
                 description: 'Motion pattern analysis, density estimation, and abnormal behavior detection in video sequences using deep learning.',
                 tags: ['Video Analysis', 'Behavior Detection', 'Motion Analysis', 'CNN'],
-                image: '/crowd_tmpl.png',
+                image: '../public/crowd_tmpl.png',
               },
               {
                 title: 'Fire Prevention System',
