@@ -158,7 +158,7 @@ export default function Home() {
               {
                 title: 'Computer Vision Engineer',
                 company: 'HARMONY TECHNOLOGY',
-                period: 'June 2025 - February 2026',
+                period: 'June 2025 - May 2026',
                 description: 'Performed object detection and segmentation on UAV images. Contributed to fire prevention systems using thermal cameras. Built crowd behavior analysis models and temporal action segmentation for factory automation.',
               },
               {
