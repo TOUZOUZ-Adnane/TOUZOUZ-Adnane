@@ -21,8 +21,7 @@ export default function ProjectsPage() {
               >
                 <div className="relative w-full h-48 overflow-hidden bg-white/5">
                   <img
-                    src={`/${project.image}`}
-                    alt={project.title}
+                    src={project.image}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                     loading="lazy"
                   />

@@ -89,7 +89,7 @@ export default function Home() {
                 <>
                   <div className="relative w-full h-48 overflow-hidden bg-white/5">
                     <img
-                      src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/${project.image}`}
+                      src={project.image}
                       alt={project.title}
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                       loading="lazy"

@@ -55,7 +55,7 @@ export default async function ProjectLandingPage({ params }: ProjectPageProps) {
           <div className="flex-1">
             <div className="overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-lg">
               <img
-                src={`/${project.image}`}
+                src={project.image}
                 alt={project.title}
                 className="w-full h-full object-cover"
               />
