@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
+import { projects } from '../lib/projects';
 
 export default function Home() {
   const [activeNav, setActiveNav] = useState('home');
@@ -81,70 +82,58 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold mb-12">Featured Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* Project Card Template */}
-            {[
-              {
-                title: 'Sports Analytics - Real-Time Action Detection',
-                description: 'AI-driven sports analytics using ViT and MViT for real-time action detection in futsal with predictive player performance models.',
-                tags: ['ViT', 'MViT', 'RNN', 'Sports Analytics', 'PyTorch'],
-                image: 'futsal_tmpl.png',
-              },
-              {
-                title: 'UAV Image Processing Pipeline',
-                description: 'Object detection, classification, and segmentation on high-resolution aerial imagery with optimization for large-scale UAV datasets.',
-                tags: ['Object Detection', 'Segmentation', 'UAV', 'OpenCV', 'Deep Learning'],
-                image: 'uav_tmpl.jpg',
-              },
-              {
-                title: 'Temporal Action Segmentation',
-                description: 'Continuous factory activity recognition addressing long-term temporal dependencies in video streams with RNNs and Transformers.',
-                tags: ['LSTM', 'Transformers', 'Video Analysis', 'Action Recognition'],
-                image: 'action_tmpl.png',
-              },
-              {
-                title: 'Crowd Behavior Analysis',
-                description: 'Motion pattern analysis, density estimation, and abnormal behavior detection in video sequences using deep learning.',
-                tags: ['Video Analysis', 'Behavior Detection', 'Motion Analysis', 'CNN'],
-                image: 'crowd_tmpl.png',
-              },
-              {
-                title: 'Fire Prevention System',
-                description: 'Thermal camera-based hotspot detection and analysis with models optimized for varying environmental conditions.',
-                tags: ['Thermal Imaging', 'Detection', 'Computer Vision', 'TensorFlow'],
-                image: 'fire_tmpl.png',
-              },
-              {
-                title: 'Livestock Weight Estimation',
-                description: 'Visual data processing combining object detection and regression-based approaches for automated livestock analysis.',
-                tags: ['Object Detection', 'Regression', 'Agriculture AI', 'PyTorch'],
-                image: 'catle_weight_tmpl.jpg',
-              },
-            ].map((project, idx) => (
-              <div
-                key={idx}
-                className="bg-white/5 border border-white/10 rounded-lg overflow-hidden hover:bg-white/10 transition-all hover:border-cyan-500/50"
-              >
-                <div className="relative w-full h-48 overflow-hidden bg-white/5">
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                    loading="lazy"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
-                  <p className="text-gray-400 mb-4">{project.description}</p>
-                  <div className="flex flex-wrap gap-2">
-                    {project.tags.map((tag, i) => (
-                      <span key={i} className="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-sm">
-                        {tag}
-                      </span>
-                    ))}
+            {projects.map((project) => {
+              const hasLink = !!project.url;
+
+              const content = (
+                <>
+                  <div className="relative w-full h-48 overflow-hidden bg-white/5">
+                    <img
+                      src={`/${project.image}`}
+                      alt={project.title}
+                      className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
                   </div>
+
+                  <div className="p-6">
+                    <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
+                    <p className="text-gray-400 mb-4">{project.description}</p>
+
+                    <div className="flex flex-wrap gap-2">
+                      {project.tags.map((tag, i) => (
+                        <span
+                          key={i}
+                          className="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-sm"
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </>
+              );
+
+              return hasLink ? (
+                <a
+                  key={project.slug}
+                  href={project.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block bg-white/5 border border-white/10 rounded-lg overflow-hidden hover:bg-white/10 transition-all hover:border-cyan-500/50"
+                >
+                  {content}
+                </a>
+              ) : (
+                <div
+                  key={project.slug}
+                  className="block bg-white/5 border border-white/10 rounded-lg overflow-hidden"
+                >
+                  {content}
                 </div>
-              </div>
-            ))}
+              );
+            })}
+            
           </div>
         </div>
       </section>
