@@ -11,7 +11,7 @@ export type Project = {
 export const projects: Project[] = [
   {
     slug: 'gym-gard',
-    title: 'GymGuard — AI Gym Surveillance System',
+    title: 'GymGuard - AI Gym Surveillance System',
     description:
       'Interactive gym surveillance platform with live camera dashboards, AI-style event tracking, and real-time monitoring of equipment and user activity.',
     details:
